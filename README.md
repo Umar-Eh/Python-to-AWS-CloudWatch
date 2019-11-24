@@ -19,15 +19,15 @@
 #### Set-up on RPI ####
 
 1. Download the boto3 sdk: pip3 install boto3. 
-2. In your home directory (use cd ~ to switch to it), creade the .aws directory: mkdir .aws.
-3. Create the credentials file: touch ~/.aws/credentials.
+2. In your home directory (use cd ~ to switch to it), creade the .aws directory: mkdir .aws
+3. Create the credentials file: touch ~/.aws/credentials
 4. Add the following information to the ~/.aws/credentials file:
    
    [default]
    aws-access_key_id = 'The access key id from step 8 of setting up AWS account'
    aws_secret_access_key = 'The secret access key from step 8 of setting up AWS account'
 
-5. Create the config file: touch ~/.aws/config.
+5. Create the config file: touch ~/.aws/config
 6. Add the following information to the ~/.aws/config file:
 
    [default]
