@@ -44,7 +44,7 @@
    intervals. 
 2. In your AWS console, type "cloudwatch" in Find Services and click on the resulting cloudwatch link.
 3. Click on "metrics" in the left side-bar and then on "all metrics" at the bottom of the graph. 
-4. Pick the "Position Data from RPI" and pick the "distance" metric. Click the checkbox.
+4. Pick the "Position Data from RPI" and pick the "RPI Metric" metric. Click the checkbox.
 5. Wait for a few minutes for data points to show up. The first time cloudwatch takes a while.
 6. The code can be modified to send any metrics. In the "dashboard" link in the left sidebar, a dashboard can be 
    created in cloudwatch which can be configured to show certain metrics over time.
