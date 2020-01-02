@@ -36,5 +36,4 @@ for index in range (0, len(distance)):
     sendMetricsToAWS("Distance from home", distance[index])
     # custom metrics may require a 60 sec wait between data points
     # requires further investigation
-    sendMetricsToAWS
     time.sleep(60)
